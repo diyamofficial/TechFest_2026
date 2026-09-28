@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFest 2026 | Media Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="bg-video-container">
+        <video class="bg-video" autoplay loop muted playsinline>
+            <source src="media/tech-bg.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header>
+        <img src="images/logo.png" alt="TechFest Logo" style="height: 150px; margin-bottom: 15px;">
+        <h1>EVENT <span>MEDIA GALLERY</span></h1>
+        <p style="color: var(--text-muted); letter-spacing: 1px;">Explore highlights, teaser videos, and photos from previous editions.</p>
+    </header>
+
+    <nav>
+        <a href="index.html">// HOME</a>
+        <a href="events.html">// EVENTS</a>
+        <a href="register.html">// REGISTER</a>
+        <a href="gallery.html" class="active">// GALLERY</a>
+        <a href="contact.html">// SPONSORS & CONTACT</a>
+    </nav>
+
+    <main>
+        <!-- PROMO VIDEO -->
+        <section class="media-container" style="text-align: center;">
+            <h2>TECHFEST TEASER VIDEO</h2>
+            <p style="color: var(--text-muted); margin-bottom: 1.5rem;">Watch the official preview video for TechFest 2026.</p>
+            <video width="640" height="360" controls poster="media/promo video.mp4" style="max-width: 100%; height: auto;">
+                <source src="media/promo video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <!-- OFFICIAL THEME TRACK -->
+        <section class="media-container" style="text-align: center;">
+            <h2>OFFICIAL THEME MUSIC</h2>
+            <p style="color: var(--text-muted); margin-bottom: 1.5rem;">Listen to the official soundtrack of TechFest 2026.</p>
+            <audio controls loop style="width: 100%; max-width: 500px;">
+                <source src="media/track.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <!-- PHOTO GALLERY -->
+        <section>
+            <h2>PAST HIGHLIGHTS</h2>
+            <div class="cards-grid">
+                
+                <!-- PHOTO 1 -->
+                <figure class="card" style="padding: 0; overflow: hidden; background: rgba(2,2,5,0.85);">
+                    <img src="images/coding.jpg" alt="Students coding at a hackathon" style="width: 100%; display: block; object-fit: cover; height: 220px; border-bottom: 1px solid var(--glass-border);">
+                    <figcaption style="padding: 15px; font-size: 0.9rem; text-align: center; color: var(--neon-glow); font-weight: bold;">24-HOUR HACKATHON ARENA</figcaption>
+                </figure>
+
+                <!-- PHOTO 2 -->
+                <figure class="card" style="padding: 0; overflow: hidden; background: rgba(2,2,5,0.85);">
+                    <img src="images/robotics.jpg" alt="Robotics arena combat competition" style="width: 100%; display: block; object-fit: cover; height: 220px; border-bottom: 1px solid var(--glass-border);">
+                    <figcaption style="padding: 15px; font-size: 0.9rem; text-align: center; color: var(--neon-purple); font-weight: bold;">ROBOTICS COMBAT MATCHES</figcaption>
+                </figure>
+
+                <!-- PHOTO 3 -->
+                <figure class="card" style="padding: 0; overflow: hidden; background: rgba(2,2,5,0.85);">
+                    <img src="images/event_audience.jpg" alt="Audience and keynote session in an auditorium" style="width: 100%; display: block; object-fit: cover; height: 220px; border-bottom: 1px solid var(--glass-border);">
+                    <figcaption style="padding: 15px; font-size: 0.9rem; text-align: center; color: var(--neon-glow); font-weight: bold;">KEYNOTE & WORKSHOP SESSIONS</figcaption>
+                </figure>
+
+            </div>
+        </section>
+    </main>
+
+    <a href="register.html" class="floating-register-btn">> REGISTER NOW</a>
+
+    <footer>
+        <p>&copy; 2026 TechFest. All Rights Reserved. // System Designed by Diya Mathews</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFest 2026 | Node Register</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="bg-video-container">
+        <video class="bg-video" autoplay loop muted playsinline>
+            <source src="media/tech-bg.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header>
+        <h1>REGISTER HERE!</h1>
+    </header>
+
+    <nav>
+        <a href="index.html" class="active">// HOME</a>
+        <a href="events.html">// EVENTS</a>
+        <a href="register.html">// REGISTER</a>
+        <a href="gallery.html">// GALLERY</a>
+        <a href="contact.html">// SPONSORS & CONTACT</a>
+    </nav>
+
+    <main style="max-width: 750px;">
+        <section>
+            <h2>PARTICIPANT DETAILS</h2>
+            <form action="#" method="POST">
+                
+                <div class="form-group">
+                    <label for="fullname">Full Name *</label>
+                    <input type="text" id="fullname" placeholder="Enter your Full Name ..." required autofocus>
+                </div>
+
+                <div class="form-group">
+                    <label for="useremail">Email *</label>
+                    <input type="email" id="useremail" placeholder="sayamanu@gmail.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="usertel">Phone Number *</label>
+                    <input type="tel" id="usertel" placeholder="0123456789" pattern="[0-9]{10}" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="userdob">Date of Birth *</label>
+                    <input type="date" id="userdob" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Gender *</label>
+                    <div class="radio-checkbox-group">
+                        <label><input type="radio" name="gender" value="male" required> Male</label>
+                        <label><input type="radio" name="gender" value="female"> Female</label>
+                        <label><input type="radio" name="gender" value="other"> Other</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="dept">Department *</label>
+                    <select id="dept" required>
+                        <option value="">-- Click to query fields --</option>
+                        <option value="cse">Computer Science and Engineering </option>
+                        <option value="ece">Electronics and Engineering</option>
+                        <option value="mech">Mechanical Enginering</option>
+                        <option value="civil">Civil Engineering</option>
+                        <option value="electrical">Electrical Engineering</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>CHOOSE EVENTS *</label>
+                    <div class="radio-checkbox-group">
+                        <label><input type="checkbox" name="events" value="hack"> 24H Hackfest Matrix</label>
+                        <label><input type="checkbox" name="events" value="robo"> Robotics Combat Node</label>
+                        <label><input type="checkbox" name="events" value="ai"> AI Nexus</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="comments">SPECIAL QUERIES OR SUPPORT</label>
+                    <textarea id="comments" rows="4" placeholder="Enter specifications regarding localized terminal accommodations..."></textarea>
+                </div>
+
+                <button type="submit">SUBMIT</button>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+       <p>&copy; 2026 TechFest. All Rights Reserved. // System Designed by Diya Mathews</p>
+    </footer>
+
+</body>
+</html>
